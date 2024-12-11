@@ -1,0 +1,233 @@
+.main-content {
+    background-image: url(../image/lienhe.png);
+    background-size: cover;
+    background-position: center;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 170px 20px;
+    height: 500px;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.info-box, .form-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-box {
+    background-color: #337ab7;
+    color: white;
+    flex: 1;
+    margin-right: 30px;
+    height: 600px;
+    font-size: 20px;
+    line-height: 2.5;
+}
+
+.info-box h3 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.info-box p {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+
+.info-box p i {
+    margin-right: 15px;
+    color: #fff;
+}
+
+.form-container {
+    flex: 2;
+    background-color: #f9f9f9;
+    font-size: 22px;
+}
+
+.form-container textarea {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Chiều rộng đầy đủ */
+    box-sizing: border-box;
+    height: 150px; /* Tăng chiều cao cho phần nội dung */
+    resize: vertical; /* Cho phép người dùng thay đổi chiều cao nếu cần */
+}
+
+
+.form-container h4 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #337ab7;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ccc; /* Thay đổi màu khi hover */
+}
+
+
+.social-icons {
+    display: flex; /* Sắp xếp các biểu tượng theo hàng ngang */
+    justify-content: center; /* Căn giữa các biểu tượng */
+    gap: 20px; /* Khoảng cách giữa các biểu tượng */
+    margin-top: 10px; /* Khoảng cách trên các biểu tượng */
+}
+
+.social-icons a {
+    color: white; /* Màu chữ cho các biểu tượng */
+    font-size: 24px; /* Kích thước biểu tượng */
+    transition: transform 0.3s, color 0.3s;/* Hiệu ứng chuyển đổi màu */
+
+}
+
+.social-icons .facebook {
+    color: white; /* Màu của biểu tượng Facebook */
+    font-size: 20px; /* Kích thước biểu tượng */
+    background-color: #1877F2; /* Màu nền xanh Facebook */
+    border-radius: 50%; /* Tạo nền hình tròn */
+    width: 40px; /* Chiều rộng của icon */
+    height: 40px; /* Chiều cao của icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Hiệu ứng khi hover */
+}
+
+.social-icons .facebook:hover {
+    background-color: #145db2; /* Màu nền khi hover */
+    transform: scale(1.1); /* Phóng to nhẹ khi hover */
+}
+
+
+
+.social-icons .youtube {
+    color: white; /* Màu biểu tượng YouTube */
+    font-size: 20px; /* Kích thước biểu tượng */
+    background-color: #FF0000; /* Màu nền đỏ */
+    border-radius: 50%; /* Tạo nền hình tròn */
+    width: 40px; /* Chiều rộng của icon */
+    height: 40px; /* Chiều cao của icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Hiệu ứng khi hover */
+}
+
+.social-icons .youtube:hover {
+    background-color: #CC0000; /* Màu nền khi hover */
+}
+
+.social-icons .instagram {
+    font-size: 20px; /* Kích thước biểu tượng */
+    background: radial-gradient(circle at 30% 30%, #fdf497, #fdf497, #fd5949, #d6249f, #285AEB); /* Gradient màu nền */
+    color: white; /* Màu của biểu tượng Instagram */
+    border-radius: 50%; /* Tạo nền hình tròn */
+    width: 40px; /* Chiều rộng của icon */
+    height: 40px; /* Chiều cao của icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease; /* Hiệu ứng khi hover */
+}
+
+.social-icons .instagram:hover {
+    transform: scale(1.1); /* Phóng to nhẹ khi hover */
+}
+
+.info-box h4 {
+    color: #fff; /* Đổi màu dòng "Theo dõi chúng tôi" */
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    background-color: #337ab7;
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 150px; /* Đặt bề ngang cố định cho nút */
+}
+
+button[type="submit"]:hover {
+    background-color: #285a9f;
+}
+
+
+
+
+
+button:hover {
+    background-color: #0056b3; /* Đổi màu khi hover */
+}
+
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column; /* Sắp xếp các trường theo chiều dọc */
+}
+
+label {
+    margin-bottom: 5px; /* Khoảng cách dưới nhãn */
+}
+
+input, textarea {
+    margin-bottom: 15px; /* Khoảng cách dưới trường nhập liệu */
+    padding: 10px; /* Padding cho các trường nhập liệu */
+    border: 1px solid #ccc; /* Đường viền cho các trường nhập liệu */
+    border-radius: 4px; /* Bo góc cho các trường nhập liệu */
+}
+
+
+
+
+
+
+
+
+
+
